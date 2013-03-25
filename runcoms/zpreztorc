@@ -29,7 +29,6 @@ zstyle ':prezto:load' pmodule \
   'dpkg' \
   'editor' \
   'git' \
-  'gpg-agent' \
   'ssh-agent' \
   'history' \
   'history-substring-search' \
@@ -37,7 +36,8 @@ zstyle ':prezto:load' pmodule \
   'spectrum' \
   'utility' \
   'completion' \
-  'prompt'
+  'prompt'  \
+  'tmux'
 
 #
 # Editor
@@ -54,7 +54,7 @@ zstyle ':prezto:module:editor' keymap 'vi'
 #
 
 # Ignore submodules when they are 'dirty', 'untracked', 'all', or 'none'.
-# zstyle ':prezto:module:git:status:ignore' submodules 'all'
+zstyle ':prezto:module:git:status:ignore' submodules 'all'
 
 #
 # GNU Utility
@@ -68,7 +68,7 @@ zstyle ':prezto:module:editor' keymap 'vi'
 #
 
 # Set the Pacman frontend.
-# zstyle ':prezto:module:pacman' frontend 'yaourt'
+zstyle ':prezto:module:pacman' frontend 'yaourt'
 
 #
 # Prompt
@@ -77,7 +77,7 @@ zstyle ':prezto:module:editor' keymap 'vi'
 # Set the prompt theme to load.
 # Setting it to 'random' loads a random theme.
 # Auto set to 'off' on dumb terminals.
-zstyle ':prezto:module:prompt' theme 'sorin'
+zstyle ':prezto:module:prompt' theme 'r2d2rogers'
 
 #
 # Screen
@@ -91,7 +91,7 @@ zstyle ':prezto:module:prompt' theme 'sorin'
 #
 
 # Enable SSH-Agent protocol emulation.
-zstyle ':prezto:module:gpg-agent' ssh-support 'yes'
+# zstyle ':prezto:module:gpg-agent' ssh-support 'yes'
 
 #
 # SSH-Agent
@@ -109,12 +109,12 @@ zstyle ':prezto:module:ssh-agent' identities 'id_rsa'
 
 # Set syntax highlighters.
 # By default main, brackets, and cursor are enabled.
-# zstyle ':prezto:module:syntax-highlighting' highlighters \
-#   'main' \
-#   'brackets' \
-#   'pattern' \
-#   'cursor' \
-#   'root'
+zstyle ':prezto:module:syntax-highlighting' highlighters \
+  'main' \
+  'brackets' \
+  'pattern' \
+  'cursor' \
+  'root'
 
 #
 # Terminal
