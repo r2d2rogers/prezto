@@ -72,3 +72,4 @@ if [[ -d "$TMPDIR" ]]; then
   fi
 fi
 
+DEBIAN_PREVENT_KEYBOARD_CHANGES=yes
