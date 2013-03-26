@@ -11,7 +11,7 @@
 # Load dependencies.
 pmodload 'helper'
 function prompt_r2_dtstamp {
-  r2_dtstamp='%D{%Y/%m/%d} %*
+  r2_dtstamp='%m %D{%Y/%m/%d} %*
 '
 }
 function prompt_sorin_pwd {
