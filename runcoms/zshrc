@@ -16,7 +16,8 @@ fi
 export LC_ALL=en_US.UTF-8
 #export http_proxy=
 
-export MINECRAFT_MAGIC_LAUNCHER="~/Dropbox/Minecraft/MagicLauncher_1.0.0.jar"
+export MINECRAFT_MAGIC_LAUNCHER="~/Dropbox/Minecraft/MagicLauncher.jar"
+export MINECRAFT_DEV_LAUNCHER="~/Dropbox/Minecraft/MinecraftDev.jar"
 export MINECRAFT_LAUNCHER="~/Dropbox/Minecraft/minecraft.jar"
 source "$HOME/.zsh_aliases"
 
