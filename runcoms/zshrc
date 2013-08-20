@@ -14,6 +14,7 @@ fi
 
 # Environment variables
 export LC_ALL=en_US.UTF-8
+export HISTCONTROL=ignoreboth
 #export http_proxy=
 
 export MINECRAFT_MAGIC_LAUNCHER="~/Dropbox/Minecraft/MagicLauncher.jar"

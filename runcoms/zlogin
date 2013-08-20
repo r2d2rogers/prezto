@@ -20,3 +20,5 @@ if (( $+commands[fortune] )); then
   print
 fi
 
+#banner
+head -`date '+%w'`0 ~/Dropbox/motd|tail -10
