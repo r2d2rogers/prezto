@@ -29,7 +29,7 @@ zstyle ':prezto:load' pmodule \
   'dpkg' \
   'editor' \
   'git' \
-  'ssh-agent' \
+  'ssh' \
   'history' \
   'history-substring-search' \
   'directory' \
@@ -107,7 +107,7 @@ zstyle ':prezto:module:prompt' theme 'r2d2rogers'
 #
 
 # Set ssh-agent identities to load.
-zstyle ':prezto:module:ssh-agent' identities 'id_rsa'
+zstyle ':prezto:module:ssh' identities 'id_rsa'
 
 #
 # Syntax Highlighting
