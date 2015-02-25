@@ -23,4 +23,4 @@ if (( $+commands[fortune] )); then
 fi
 
 #banner
-head -`date '+%w'`0 ~/Dropbox/motd|tail -10
+head -`date '+%w'`0 ~/dotfiles/motd|tail -10
