@@ -15,6 +15,7 @@ fi
 # Environment variables
 export LC_ALL=en_US.UTF-8
 export HISTCONTROL=ignoreboth
+export EDITOR=vim
 #export http_proxy=
 
 source "$HOME/.zsh_aliases"
